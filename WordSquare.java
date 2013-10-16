@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.*;
 
-public class WordSquare {
+public class WordSquare 
+{
 
 	static class Pair implements Comparator<Pair>
 	{
