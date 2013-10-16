@@ -100,7 +100,7 @@ public class WordSquare
 			if (dictionary.get(i).equals(word1) || dictionary.get(i).equals(word2))
 				return true;
 		}
-        return false;	
+        	return false;	
 	}
 	
 	//find a second line word such that the first and third column are words in the dictionary
@@ -144,7 +144,7 @@ public class WordSquare
 		String reverseWordOnColumnZero = new String(new char[]{w2[0], w4[2], w3[0]});
 		String reverseWordOnColumnZeroReverse = new String(new char[]{w3[0], w4[2], w2[0]});
 		String reverseWordOnColumnTwo = new String(new char[]{w2[2], w4[0], w3[2]});
-        String reverseWordOnColumnTwoReversed = new String(new char[]{w3[2], w4[0], w2[2]});
+        	String reverseWordOnColumnTwoReversed = new String(new char[]{w3[2], w4[0], w2[2]});
         
 		//if word does not have the same middle letter as the word on the second column
 		if (word.charAt(1) != w1[1])
